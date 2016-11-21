@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#b2dfdb"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*">
+
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn76"
+                    android:src="@drawable/dahor"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/mursalat"
+                    android:id="@+id/btn77"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn78"
+                    android:src="@drawable/naba"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+
+            </TableRow>
+
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn79"
+                    android:src="@drawable/najirat"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/abasa"
+                    android:id="@+id/btn80"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn81"
+                    android:src="@drawable/takbir"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn82"
+                    android:src="@drawable/infitar"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn83"
+                    android:src="@drawable/mutaffikin"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn84"
+                    android:src="@drawable/inshikak"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+
+            </TableRow>
+
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn85"
+                    android:src="@drawable/buruj"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/tarik"
+                    android:id="@+id/btn86"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/ala"
+                    android:id="@+id/btn87"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn88"
+                    android:src="@drawable/gashiyah"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/fajr"
+                    android:id="@+id/btn89"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/balad"
+                    android:id="@+id/btn90"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+
+            </TableRow>
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/btn91"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/shams"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn92"
+                    android:src="@drawable/lail"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn93"
+                    android:src="@drawable/duha"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+
+            </TableRow>
+
+
+
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/inshirah"
+                    android:id="@+id/btn94"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/btn95"
+                    android:src="@drawable/tin"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/alak"
+                    android:id="@+id/btn96"
+                    android:background="@drawable/shadow"
+                    >
+
+                </ImageView>
+
+            </TableRow>
+
+
+
+
+
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

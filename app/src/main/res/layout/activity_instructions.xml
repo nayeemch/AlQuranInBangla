@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b2dfdb"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="প্রয়োজনীয় দিক-নির্দেশনা"
+        android:gravity="center"
+        android:background="@drawable/shadow"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shadow"
+                >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/animate"
+    android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="পরম করুণাময় এবং অসীম দয়ালু আল্লাহতায়ালার নামে শুরু করছি।\nআল - কুরআনের বাংলা অনুবাদ অ্যাপ একটি অনবদ্য অ্যাপ যার মাধ্যমে আল্লাহতায়ালার বাণী সরাসরি বাংলা ভাষায় শোনা যাবে। এতে আরবী কুরআন পাঠ না রেখে শুধু বাংলা অনুবাদ পাঠের অডিও রাখা হয়েছে।
+অডিও এর সোর্স হল আল - কুরআন একাডেমী , লন্ডন।
+\nএতে মূলত ছোট সাইজের সূরাগুলো অ্যাপের ভেতর সংযুক্ত করা হয়েছে আর বড় সূরাগুলো অ্যাপের সাইজের কথা বিবেচনা করে ওয়েব সার্ভারে রাখা হয়েছে।একজন ইউজার অতি সহজে ডাউনলোড বাটনে প্রেস করে ইন্টারনেট থেকে মাত্র একবার ডাউনলোড করলেই হবে। অ্যাপে সেগুলো স্বয়ংক্রিয়ভাবে সংযুক্ত হয়ে যাবে। আর ডাউনলোড করতে হবে না।
+\nঅ্যাপটি যে কেউ শুনতে পারবেন। যেহেতু আরবী কুরআন এর আবৃতি এতে নাই তাই ওযু ছাড়া অবস্থায় এটি শোনা যাবে। ধর্ম , বর্ণ, গোত্র নির্বিশেষে যে কেউ এটা শুনতে পারবেন। বিভিন্ন ওযরে যারা নামায বা কুরআন শরীফ পড়তে পারেন না, তারাও এটি শুনতে পারবেন।
+অ্যাপটি আপনাদের জন্য নিয়ে এসেছে TechnoCrews এবং এই অ্যাপ এর ডেভেলপার হিসাবে রয়েছেন Nayeem. \nআমরা অ্যাপটি অ্যাড ফ্রি রাখার জন্য সচেষ্ট রয়েছি অর্থাৎ অ্যাপ চলাকালীন অন্যান্য অ্যাপের মতো অবাঞ্চিত অ্যাড এসে আপনার বিঘ্ন ঘটাবে নাহ। আপনার যদি সামান্য উপকার হয় তাহলে আমাদের এই কাজ এর জন্য ডোনেট করতে পারেন (সম্পূর্ণ ঐচ্ছিক ব্যাপার)।
+
+\n\nডোনেট করতে চাইলে যোগাযোগ করুনঃ  "
+
+                    android:textColor="#000000"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="16sp"
+                    android:id="@+id/tv1"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="5dp"
+
+                    />
+
+
+                <TextView
+                    android:text=""
+                    android:id="@+id/link1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:autoLink="email"
+                    android:textColor="#000000"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="16sp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="5dp">
+                </TextView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="অথবা ফেসবুক পেইজে "
+                    android:textColor="#000000"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="16sp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:text="www.facebook.com/TechnoCrews/ "
+                    android:id="@+id/link2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:autoLink="web"
+                    android:textColor="#000000"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="16sp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="5dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="\nএছাড়া যেকোনো অ্যাপ আমাদের মাধ্যমে বানাতে কিংবা যদি কোন অ্যাপ আইডিয়া আপনার মাথায় থাকে যা প্লে স্টোর এ পেতে চান তাও আমাদের জানাতে পারেন উপরের ইমেইল অথবা পেইজ এ।\n
+সবাইকে আল্লাহ তায়ালা তাঁর বাণী বুঝার এবং সেই অনুসারে আমল করার তৌফিক দান করুন । \n\nআমীন।"
+                    android:textColor="#000000"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="16sp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="5dp"
+                    android:id="@+id/tv2"
+
+                    />
+
+</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

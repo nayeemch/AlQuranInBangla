@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AL-Quran in Bangla</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_surah_activity">Surah_activity</string>
+    <string name="title_activity_surah_activity_uri">Surah_activityURI</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
